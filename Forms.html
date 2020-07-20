@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+    <title>FORMS</title>
+</head>
+<body>
+    <form method="" action="">
+	<fieldset>
+	    <legend>User Info</legend>
+	    <label for="uname">Enter User Name:-</label>
+		<input type="text" id="uname" placeholder="Enter Name" title="Name"/>
+		<br/>
+		<br/>
+		<label>Enter password :- </label>
+		<input type="password" name="pass" placeholder="Enter Password" required />
+		<br/>
+		<br/>
+		<label>Gender :-</label>
+		<input type="radio" name="g" id="male" checked />Male
+		<input type="radio" name="g" id="female" />Female
+	</fieldset>
+	<br/>
+	<br/>
+	
+	<label> Select Course:-</label>
+		<select>
+		    <option>Select Course</option>
+			<optgroup label="PRO" />
+			<option>B.Tech</option>
+			<option>M.Tech</option>
+			<optgroup label="Management" />
+			<option>BCA</option>
+			<option>MCA</option>
+			<option>BBA</option>
+			<option>MBA</option>
+			<option>Phd.</option>
+			<option>PolyTech.</option>
+		</select>
+		<br/>
+	    <br/>
+	<label>Select Course:-</label>
+	    <input type="text" list="name" />
+	    <datalist id="name">
+		    <option value="BBA">
+			<option value="BCA">
+			<option value="MBA">
+			<option value="B.Tech">
+			<option value="M.Tech">
+			<option value="PolyTech">
+			<option value="Phd">
+			<option value="MCA">
+        </datalist>
+		<br/>
+	    <br/>
+		<label>Select Vehicle</label>
+		<input type="checkbox"/>Car
+		<input type="checkbox"/>Scooty
+		<input type="checkbox"/>Bus
+		<input type="checkbox"/>Van
+		<input type="checkbox"/>Truck
+		<br/>
+	    <br/>
+		<label>Select Date:-</label>
+		<input type="Date"/>
+		<label>Select Time:-</label>
+		<input type="Time"/>
+		<br/>
+		<br/>
+		<label>Enter Mobile No.:-</label>
+		<input type="number" />
+                <input type="color" value="blue" />
+	    <br/>
+		<br/>
+		<input type="button" value="Confirm"/>
+		<input type="reset"/>
+		<input type="submit"/>
+		<button>Click Me</button>
+    </form>    
+</body>
+</html>
